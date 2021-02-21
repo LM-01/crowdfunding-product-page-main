@@ -18,6 +18,43 @@ body {
   line-height: 1.7;
   color: black; }
 
+.heading_primary {
+  text-align: center;
+  margin: 3rem 0 1rem 0;
+  font-size: 2.5rem; }
+  .heading_primary--sub {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #7a7a7a;
+    text-align: center; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-sm {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-md {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-bg {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-bg {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.u-margin-top-bg {
+  margin-top: 8rem !important; }
+
+.u-margin-top-md {
+  margin-top: 4rem !important; }
+
+.u-margin-top-sm {
+  margin-top: 2rem !important; }
+
 .header {
   background-image: url(../images/image-hero-desktop.jpg);
   height: 40rem;
@@ -32,3 +69,47 @@ body {
     left: 10%;
     justify-content: space-between;
     color: white; }
+
+.main {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  padding: 2rem 2.5rem;
+  background: white;
+  border-radius: 1rem;
+  border: 1px solid rgba(122, 122, 122, 0.1); }
+  .main-top-overlay {
+    margin: -10rem auto 0; }
+  .main-logo {
+    position: absolute;
+    top: -3rem;
+    left: 49%; }
+  .main_row {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0 auto; }
+  .main_button {
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    height: 5.5rem;
+    width: 17rem;
+    border: 0;
+    font-weight: 600; }
+    .main_button--backproject {
+      background: #147b74;
+      color: white; }
+    .main_button--bookmark {
+      color: #4d4d4d;
+      position: relative; }
+      .main_button--bookmark-icon {
+        background-image: url(../images/icon-bookmark.svg);
+        height: 5.6rem;
+        width: 5.6rem;
+        top: 0;
+        left: 0;
+        position: absolute; }
+      .main_button--bookmark-text {
+        position: absolute;
+        top: 39%;
+        left: 130%; }
