@@ -1,8 +1,8 @@
 .main {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     position: relative;
-    padding: 2rem 2.5rem;
+    padding: 2rem 5rem;
     background: white;
     border-radius: 1rem;
     border: 1px solid rgba($color-gray-dark-1, .1);
@@ -20,8 +20,11 @@
     &_row {
         display: flex;
         justify-content: space-between;
-        color: white;
         margin: 0 auto;
+    }
+
+    &_row--nonspaced {
+        display: flex;
     }
 
     &_button {

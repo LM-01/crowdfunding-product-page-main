@@ -28,6 +28,19 @@ body {
     color: #7a7a7a;
     text-align: center; }
 
+.stats {
+  display: inline-block;
+  margin: 0; }
+  .stats--primary {
+    display: block;
+    font-size: 3.5rem;
+    margin-bottom: -1rem; }
+  .stats--secondary {
+    display: block;
+    font-size: 1.5rem;
+    color: #7a7a7a;
+    font-weight: 500; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -71,10 +84,10 @@ body {
     color: white; }
 
 .main {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   position: relative;
-  padding: 2rem 2.5rem;
+  padding: 2rem 5rem;
   background: white;
   border-radius: 1rem;
   border: 1px solid rgba(122, 122, 122, 0.1); }
@@ -87,8 +100,9 @@ body {
   .main_row {
     display: flex;
     justify-content: space-between;
-    color: white;
     margin: 0 auto; }
+  .main_row--nonspaced {
+    display: flex; }
   .main_button {
     padding: 1.5rem 3rem;
     border-radius: 5rem;
@@ -113,3 +127,28 @@ body {
         position: absolute;
         top: 39%;
         left: 130%; }
+
+.primary_stats_rborder {
+  margin: 1rem 8.5rem;
+  background-color: rgba(122, 122, 122, 0.5);
+  width: 1px;
+  height: 6rem; }
+
+.primary_stats_progressbar {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 1rem;
+  border-radius: 1rem;
+  z-index: 1;
+  position: relative; }
+  .primary_stats_progressbar--bg {
+    z-index: 1; }
+  .primary_stats_progressbar--actual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3cb4ac;
+    z-index: 2;
+    width: 90%;
+    height: 1rem;
+    border-radius: 1rem; }
