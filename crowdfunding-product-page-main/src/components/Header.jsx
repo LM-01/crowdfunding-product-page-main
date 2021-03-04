@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/logo-mastercraft.svg'
+import { BookmarkButton } from './smallComps/BookmarkButton';
 
 export function Header(){
     return <>
@@ -20,9 +21,7 @@ export function Header(){
             
             <div className="main_row u-margin-bottom-sm">
             <button className="main_button main_button--backproject">Back this project</button>
-            <button className="main_button main_button--bookmark">
-                <div className="main_button--bookmark-icon"><span className="main_button--bookmark-text">Bookmark</span></div>
-                </button>
+            <BookmarkButton />
             </div>
         </section>
   </>

@@ -34,6 +34,7 @@
         width: 17rem;
         border: 0;
         font-weight: 600;
+        cursor: pointer;
 
         &--backproject {
             background: $color-primary-dark;
@@ -43,14 +44,27 @@
         &--bookmark {
             color: $color-gray-dark-2;
             position: relative;
+            
+
+            &--active {
+                width: 20rem;
+                transition: .3s;
+                color: $color-primary-dark;
+                background-color: rgba($color-primary-light,.1);
+            }
+
 
             &-icon {
-                background-image: url(../images/icon-bookmark.svg);
+                // background-image: url(../images/icon-bookmark.svg);
                 height: 5.6rem;
                 width: 5.6rem;
                 top: 0;
                 left: 0;
                 position: absolute;
+
+                &--active {
+                    // background-image: url(../images/icon-bookmark.svg);
+                }
             }
 
             &-text {

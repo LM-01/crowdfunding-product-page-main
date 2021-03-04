@@ -109,15 +109,20 @@ body {
     height: 5.5rem;
     width: 17rem;
     border: 0;
-    font-weight: 600; }
+    font-weight: 600;
+    cursor: pointer; }
     .main_button--backproject {
       background: #147b74;
       color: white; }
     .main_button--bookmark {
       color: #4d4d4d;
       position: relative; }
+      .main_button--bookmark--active {
+        width: 20rem;
+        transition: .3s;
+        color: #147b74;
+        background-color: rgba(60, 180, 172, 0.1); }
       .main_button--bookmark-icon {
-        background-image: url(../images/icon-bookmark.svg);
         height: 5.6rem;
         width: 5.6rem;
         top: 0;
