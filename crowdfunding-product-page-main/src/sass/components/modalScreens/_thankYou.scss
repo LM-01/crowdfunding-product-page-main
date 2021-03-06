@@ -1,0 +1,15 @@
+.thanks-container{
+    padding: 3.2rem;
+    display: block;
+    text-align: center;
+    width: 45rem;
+
+    &-checkmark {
+        background-image: url(../images/icon-check.svg);
+        height: 6.4rem;
+        width: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,16 @@
+.primary-btn {
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    height: 4.5rem;
+    /* width: 17rem; */
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+    background: $color-primary-light;
+    color: white;
+
+    &:hover {
+        background: $color-primary-dark;
+    }
+}

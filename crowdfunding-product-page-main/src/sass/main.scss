@@ -1,8 +1,13 @@
+@import "abstracts/mixins";
 @import "abstracts/variables";
 
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
+
+@import "components/buttons.scss";
+@import "components/popup";
+@import "components/modalScreens/thankYou";
 
 @import "layout/header";
 @import "layout/main";
