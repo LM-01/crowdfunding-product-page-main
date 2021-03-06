@@ -1,5 +1,5 @@
 .main {
-    width: 55%;
+    width: 50%;
     margin: 0 auto;
     position: relative;
     padding: 2rem 5rem;
@@ -31,11 +31,12 @@
         padding: 1.5rem 3rem;
         border-radius: 5rem;
         height: 5.5rem;
-        width: 17rem;
+        width: 18rem;
         border: 0;
         font-weight: 600;
         cursor: pointer;
         transition: .2s;
+        letter-spacing: .5px;
 
         &--backproject {
             background: $color-primary-light;
@@ -66,10 +67,6 @@
                 top: 0;
                 left: 0;
                 position: absolute;
-
-                &--active {
-                    // background-image: url(../images/icon-bookmark.svg);
-                }
             }
 
             &-text {

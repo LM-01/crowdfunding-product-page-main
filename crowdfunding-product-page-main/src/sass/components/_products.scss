@@ -1,0 +1,45 @@
+.products_container {
+    margin-top: 3rem;
+    border: 1px solid $color-gray-light-2;
+    border-radius: 8px;
+    padding: 3rem 2rem;
+
+    &_row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.products_header {
+    &--heading {
+
+    }
+
+    &--pledge {
+        color: $color-primary-light;
+    }
+}
+
+.products_description--text {
+    color: $color-gray-dark-1;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.products_details {
+    &--bold {
+        position: relative;
+    }
+
+    &--small {
+        color: $color-gray-dark-1;
+        font-weight: 100;
+        font-size: 1.5rem;
+        top: .75rem;
+        position: absolute;
+        left: 4.5rem;
+    }
+}

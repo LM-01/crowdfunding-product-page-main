@@ -155,6 +155,37 @@ body {
   .popup__close:hover {
     color: #147b74; }
 
+.products_container {
+  margin-top: 3rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 8px;
+  padding: 3rem 2rem; }
+  .products_container_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; }
+
+.products_header--pledge {
+  color: #3cb4ac; }
+
+.products_description--text {
+  color: #7a7a7a;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  margin-bottom: 1rem; }
+
+.products_details--bold {
+  position: relative; }
+
+.products_details--small {
+  color: #7a7a7a;
+  font-weight: 100;
+  font-size: 1.5rem;
+  top: .75rem;
+  position: absolute;
+  left: 4.5rem; }
+
 .thanks-container {
   padding: 3.2rem;
   display: block;
@@ -184,7 +215,7 @@ body {
     color: white; }
 
 .main {
-  width: 55%;
+  width: 50%;
   margin: 0 auto;
   position: relative;
   padding: 2rem 5rem;
@@ -207,11 +238,12 @@ body {
     padding: 1.5rem 3rem;
     border-radius: 5rem;
     height: 5.5rem;
-    width: 17rem;
+    width: 18rem;
     border: 0;
     font-weight: 600;
     cursor: pointer;
-    transition: .2s; }
+    transition: .2s;
+    letter-spacing: .5px; }
     .main_button--backproject {
       background: #3cb4ac;
       color: white; }
