@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import logo from '../images/logo-mastercraft.svg'
-import { openModal } from '../reducers';
+import { openModal } from '../reducers/modalReducer';
 import { BookmarkButton } from './smallComps/BookmarkButton';
 
 export function Header(){
@@ -23,7 +23,7 @@ export function Header(){
             <h3 className="heading_primary--sub u-margin-bottom-md">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</h3>
             
             <div className="main_row u-margin-bottom-sm">
-            <button className="main_button main_button--backproject" onClick={()=> dispatch(openModal('thankYou'))}>Back this project</button>
+            <button className="main_button main_button--backproject" onClick={()=> dispatch(openModal('backProject'))}>Back this project</button>
             <BookmarkButton />
             </div>
         </section>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { closeModal } from '../../reducers'
+import { closeModal } from '../../reducers/modalReducer'
 
 export function ThankYou(){
     const dispatch = useDispatch()

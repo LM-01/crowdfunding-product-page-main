@@ -1,0 +1,51 @@
+.backProject {
+    padding: 3.2rem 3.5rem;
+    display: block;
+    width: 75rem;
+}
+
+.form {
+    
+    &__radio-input {
+        display: none;
+    }
+
+    &__label {
+        background-color: royalblue;
+    }
+
+    &__radio-label {
+        font-size: $default-font-size;
+        cursor: pointer;
+        position: relative;
+        padding-right: 3.5rem;
+    }
+
+    &__radio-button {
+        height: 2rem;
+        width: 2rem;
+        border: 1px solid $color-primary-light;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 1.5rem;
+
+        &-inner_circle {
+            height: 1rem;
+            width: 1rem;
+            content: "";
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: $color-primary-light;
+            transition: opacity .2s;
+        }
+    }
+
+    &__radio-input:checked ~ &_label > .products_container--small > &__radio-label > &__radio-button::after {
+        opacity: 1;
+    }
+}
